@@ -3,7 +3,8 @@ image: alpine:latest
 pages:
   stage: deploy
   script:
-  - echo 'Nothing to do...'
+  - gem install jekyll
+    - bookingservice build -d public/
   artifacts:
     paths:
     - public
