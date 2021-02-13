@@ -1,0 +1,290 @@
+body{
+    color: rgb(218, 218, 218);
+    background-color: rgb(15, 15, 15);
+    
+}
+
+.jumbotron{
+    color: rgb(218, 218, 218);
+    background-color: rgb(51, 51, 51);
+    background-image: none;
+}
+
+.card{
+        color: rgb(218, 218, 218);
+        background-color: rgb(51, 51, 51);
+}
+
+
+#clearSearch{
+text-align: right
+}
+
+#clearSearchCourse{
+    text-align: right,
+    
+    
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+button{
+    border-radius: 20px;
+}
+
+body{
+    font-size: large;
+    font-family: 'Inconsolata', monospace;
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  
+
+  h1{
+    margin: 16px;
+  }
+  
+  .container, .panel{
+    padding:0.01em 16px
+    
+  }
+  
+  
+  
+  
+  .card{
+    margin-bottom: 60px;
+  }
+  
+  .padding-16{
+    padding-top:16px;
+    padding-bottom:16px
+  }
+  .padding-32{
+    padding-top:32px;
+    padding-bottom:32px
+  }
+  
+  .border-bottom{
+    border-bottom:1px solid #ccc
+  }
+  
+  .border-light-gray,.border-light-gray:hover{
+    border-color:#f1f1f1
+  }
+  
+  .text-green:hover
+  {color:#4CAF50}
+  
+  
+  
+  
+  .input{
+    padding:8px;display:
+    block;border:none;
+    border-bottom:1px solid #ccc;
+    width:75%;
+    margin-top:16px;
+    margin-bottom:16px
+  }
+  
+  .card{
+    border-style: 10px solid rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  
+  .card-adu{
+    border-style: 10px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  .card-adu:hover{
+    background-color:  rgb(0, 119, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  
+  .card-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .card:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  
+  
+  #landing-jumbotron{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    background-image: url("../images/jumbotronbg2.jpg");
+    
+  }
+  
+
+  
+  
+  
+  .card-title{
+    text-align: center;
+  }
+  
+  .card-text{
+    text-align: justify;
+  }
+  .card-texts{
+    text-align: center;
+  }
+  
+  .card-text-about{
+    text-align: center;
+  }
+
+  
+  #topheading{
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    margin-left: 0;
+  }
+  
+
+  
+  .footer-container{
+    padding:0 16px;
+    position:relative;
+    margin-bottom:0;
+    
+  }
+  .footer-container:after, .footer-container:before{
+    content:"";
+    display:table;
+    clear:both;
+    position: relative;
+    
+  }
+  
+  .footer-image{
+    max-width:30px;
+    height:30px;
+    
+  }
+  .footer-style{
+    text-align:center;
+    color:#fff;
+    background-color:#000;
+    padding-top:16px;
+    padding-bottom:16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .rikklink{
+    color:#0230fc;
+  }
+  
+  .rikklink:hover{
+    color:#4CAF50;
+    text-decoration: none;
+  }
+  
+  .cardlink:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .cardlink{
+    color: #000;
+  }
+  .adulink:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+
+  
+  .plain{
+    font-family: 'Inconsolata', monospace;
+  }
+  
+
+  
+  
+
+  
+  .putborder
+  {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-right: 30px;
+  }
+  
+  .skillssection{
+  margin-top: 50px;
+  }
+  
+
+  
+  table {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    align-items: center;
+  }
+  td {
+    padding: 10px 0;
+  }
+  
+  
+  .imgclass {
+    width: 100px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    margin:auto;
+  }
+  
+  .imgclass2 {
+    width: 70px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    margin:auto;
+  }
+  
+
+  .button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    text-align:left;
+    white-space: normal;
+    color:#fff;
+    background-color:#000;
+    margin-top:16px;
+    margin-bottom:16px;
+  }
+ 

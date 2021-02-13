@@ -1,0 +1,40 @@
+Capstone 2 Requirements:(general req)
+
+*User Profile Page
+    -user info
+    -courses enrolled in (course names, not ID's)
+*Admin authorization on course details page(Stretch Goal)
+    -show list of all enrollees if admin is logged in
+*Courses view will show all courses if admin is logged in
+*Admin may perform full CRUD on courses
+    -disabling of courses is a toggle
+*Non-admin users may enroll in courses
+*Modify the design in front end
+
+=======================Capstone 2 specifications=========================
+
+
+Create profile.html with the following information
+a. User's details (name, mobileNo, etc)
+b. List of all courses the user is enrolled in
+c. The courses displayed should be course name, not course id
+
+
+Modify course.html such that if the user is an admin, they can view all the students who enrolled to the course
+Note: The students displayed should have their first and last name
+
+
+Create a controller function and route to change the isActive property of a course to true
+
+
+Modify courses.html with the following conditions:
+a. if the admin is logged in, the courses listed will be ALL courses (regardless if it is archived or not) and 2 buttons (view course and archive/reactivate course)
+b. Any active course should have a button to archive it, and any archived course should a button to reenable it
+c. if it is a regular user, only ACTIVE courses should appear
+
+
+Stretch goal:
+
+Correct the navbar of the frontend with the following conditions:
+a. If the user is logged in, the register and sign up links are not visible, instead, the profile and signout links are visible
+b. If the user is not logged in, the register and sign up links are visible and the profile and signout links are not visible
